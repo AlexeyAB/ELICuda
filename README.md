@@ -3,7 +3,7 @@ ELICuda
 
 ELICuda - an example for unified using Thrust code on host backends CPU(CPP/OpenMP) and GPU(CUDA)
 
-Divide each byte of the first file, by the corresponding byte from the second file.
+Divide each byte of the first file, by the corresponding byte from the second file, exclude of first 512 bytes for header!
 
 Example of use: ELICuda.exe filename1 filename2
 
